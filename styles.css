@@ -1,0 +1,86 @@
+a {
+	color: white;
+}
+
+h1{
+	text-transform: capitalize;
+}
+
+.imag1{
+	width: 150px;
+}
+
+.titulo{
+	background: black;
+}
+
+.parrafo{
+	font: 120% sans-serif;
+}
+
+.h-1{
+	margin: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+ button{
+ 	background: darkgray;
+ 	background-image: -webkit-linear-gradient(top, darkgray, black);
+  	background-image: -moz-linear-gradient(top, darkgray, black);
+  	background-image: -ms-linear-gradient(top, darkgray, black);
+  	background-image: -o-linear-gradient(top, darkgray, black);
+  	background-image: linear-gradient(to bottom, darkgray, black);
+  	-webkit-border-radius: 28;
+  	-moz-border-radius: 28;
+  	border-radius: 28px;
+  	text-shadow: 3px 2px 1px black;
+  	-webkit-box-shadow: 6px 5px 24px #666666;
+  	-moz-box-shadow: 6px 5px 24px #666666;
+  	box-shadow: 6px 5px 24px #666666;
+  	font-family: Arial;
+  	color: whitesmoke;
+  	font-size: 27px;
+  	padding: 19px;
+  	text-decoration: none;
+ }
+
+ button:hover {  
+ 	background: black;  
+ 	background-image: -webkit-linear-gradient(top, black, darkgray);
+  	background-image: -moz-linear-gradient(top, black, darkgray);
+  	background-image: -ms-linear-gradient(top, black, darkgray);
+  	background-image: -o-linear-gradient(top, black, darkgray);
+  	background-image: linear-gradient(to bottom, black, darkgray);  
+  	text-decoration: none;
+}
+
+ .Infoper{
+ 	padding: 20px;
+ 	line-height: 50%;
+ 	font-size: 15px;
+ 	font: sans-serif;
+ }
+
+ .init{
+ 	margin: 25px;
+ 	padding: 10px;
+ 	text-decoration-style: ;
+ 	color: whitesmoke;
+ }
+
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+  color: black;
+  background: whitesmoke;
+  background-image: -webkit-linear-gradient(top, gray, whitesmoke);
+  background-image: -moz-linear-gradient(top, whitesmoke, gray);
+  background-image: -ms-linear-gradient(top, gray, whitesmoke);
+  background-image: -o-linear-gradient(top, whitesmoke, gray);
+  font-size: 12px;
+  margin: 50px 100px 50px 100px;
+}
+
+meter::-moz-meter-bar {
+    background: black;
+}
